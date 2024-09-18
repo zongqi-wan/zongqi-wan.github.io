@@ -1,0 +1,26 @@
+# jemdoc: menu{MENU}{index.html}, notime
+=Zonqgi Wan
+
+~~~
+Ph.D. candidate, \n
+Institute of Computing Technology, Chinese Academy of Sciences,\n
+No.6 Kexueyuan south road \n
+Haidian District, Beijing \n
+email: wanzongqi20s@ict.ac.cn \n
+~~~
+
+== About Me
+I am a Ph.D. student at the University of Chinese Academy of Sciences under the supervision of Prof. Jialin Zhang and Prof. Xiaoming Sun. Before that, I received a B.Sc. from the Hua Loo-Keng class at Shandong University, majoring in applied mathematics. I am interested in several directions of theoretical computer science and machine learning, including bandit theory, submodular maximization, and mechanism design.
+
+{{My Erd&odblac;s number is 3 (me -> Xiaoming Sun -> L&aacute;szl&oacute; Babai -> Paul Erd&odblac;s).}}
+
+{{<font color="red">Open to work.</font>}}
+
+== News
+- \[July, 2024\] Back to Beijing
+- \[April, 2024\] A paper titled "Competitive Auctions with Imperfect Predictions" is accepted by EC 2024.
+- \[Mar, 2024\] I am visiting [https://www.cse.cuhk.edu.hk/~cslui/ Prof. John C.S. Lui] at Chinese University of Hong Kong.
+
+== Services
+- Journal reviewer: Quantum, IEEE Transactions on Artificial Intelligence
+- Conference reviewer: TQC 2023, WINE 2024

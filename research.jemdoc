@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{research.html}, notime
+=Research
+
+{{* denotes equal contribution, (&alpha;-&beta;) denotes alphabetical author order}}
+
+. *Zongqi Wan*, Jialin Zhang, Xiaoming Sun, Zhijie Zhang, "Efficient Deterministic Algorithms for Maximizing Symmetric Submodular Functions", preprint, [https://arxiv.org/abs/2406.14278 arXiv]
+. Qixin Zhang\*, *Zongqi Wan\* *, Zengde Deng, Zaiyi Chen, Xiaoming Sun, Jialin Zhang, Yu Yang, "Boosting Gradient Ascent for Continuous DR-submodular Maximization", preprint. [https://arxiv.org/abs/2401.08330 arXiv]
+. Jiyu Jiang, *Zongqi Wan*, Tongyang Li, Meiyue Shao, Jialin Zhang, Shadow Tomography of Quantum States with Prediction. Accepted by Frontiers of Computer Science. [https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-40414-w PDF]
+. {{(&alpha;-&beta;)}} Pinyan Lu, *Zongqi Wan*, Jialin Zhang, "Competitive Auctions with Imperfect Predictions", The 25th ACM Conference on Economics and Computation (EC 2024). [https://arxiv.org/abs/2309.15414 arXiv]
+. *Zongqi Wan*, Jialin Zhang, Wei Chen, Xiaoming Sun, Zhijie Zhang, "Bandit Multi-linear DR-Submodular Maximization and Its Applications on Adversarial Submodular Bandits", 40th International Conference on Machine Learning;(ICML 2023). [https://arxiv.org/abs/2305.12402 arXiv]
+. *Zongqi Wan*, Zhijie Zhang, Tongyang Li, Jialin Zhang, Xiaoming Sun, "Quantum Multi-Armed Bandits and Stochastic Linear Bandits Enjoy Logarithmic Regrets ", 37th AAAI Conference on Artificial Intelligence;(AAAI 2023). [https://arxiv.org/abs/2205.14988 arXiv]
+. *Zongqi Wan*, Xiaoming Sun and Jialin Zhang, "Bounded Memory Adversarial Bandits with Composite Anonymous Delayed Feedback", 31st International Joint Conference on Artificial Intelligence;(IJCAI 2022). [https://arxiv.org/abs/2204.12764 arXiv]
+
+
+
