@@ -97,9 +97,9 @@ strong { font-weight: 700; }
 .portrait img { display: block; width: 164px; background: white; border: 1px solid #6c7891; }
 .portrait figcaption { margin-top: 10px; text-align: center; color: #596780; font: 10px/1.6 var(--mono); }
 .profile-stamp { display: block; margin-top: 13px; padding: 5px; border: 1px dashed #9da9c0; background: #f0f3fa; color: #44577d; font: 10px/1.5 var(--mono); text-align: center; }
-.profile-top { display: grid; grid-template-columns: minmax(0, 1fr) 180px; align-items: center; gap: 20px; }
-.university-logo { display: block; width: 180px; max-width: 100%; justify-self: end; }
-.university-logo img { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+.profile-top { display: grid; grid-template-columns: minmax(0, 1fr) 220px; align-items: center; gap: 20px; }
+.university-logo { display: block; width: 220px; max-width: 100%; justify-self: end; }
+.university-logo img { display: block; width: 100%; height: auto; }
 .university-logo:hover { background: transparent; }
 .hero-identity h1 { color: #1e397c; font: 700 31px/1.2 var(--serif); letter-spacing: -.025em; }
 .hero-name-cn { display: inline-block; margin-left: 8px; font: 16px/1.5 var(--sans); color: #52617e; letter-spacing: 0; }
@@ -185,7 +185,7 @@ strong { font-weight: 700; }
   body { padding: 20px 14px; }
   .workspace { grid-template-columns: 164px minmax(0, 1fr); gap: 12px; padding: 14px 12px; }
   .profile-grid { grid-template-columns: 135px minmax(0, 1fr); gap: 18px; padding: 20px; }
-  .profile-top { grid-template-columns: minmax(0, 1fr) 140px; gap: 14px; }
+  .profile-top { grid-template-columns: minmax(0, 1fr) 160px; gap: 12px; }
   .hero-identity h1 { font-size: 27px; }
   .hero-name-cn { display: block; margin: 6px 0 0; font-size: 15px; }
   .mobius-art { width: 260px; right: 0; }
@@ -210,7 +210,7 @@ strong { font-weight: 700; }
   .site-nav a { justify-content: center; gap: 5px; padding: 9px 5px; min-height: 42px; font-size: 11px; }
   .site-nav a[aria-current="page"]::after { display: none; }
   .side-interests, .side-extras { display: none; }
-  .profile-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .profile-grid { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); }
   .profile-copy, .profile-top { display: contents; }
   .hero-identity { grid-column: 1 / -1; grid-row: 1; }
   .portrait { grid-column: 1; grid-row: 2; width: 150px; max-width: 100%; }

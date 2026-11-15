@@ -13,7 +13,7 @@ A static website for [zongqiwan.com](https://zongqiwan.com/), hosted by GitHub P
 - `links.html`: research resources, linked from the directory and footer.
 - `assets/site.css`: shared retro theme, responsive layout, typography, and print styles.
 - `assets/icons.svg` and `assets/mobius.svg`: local vector icons and the wireframe Möbius strip in the masthead.
-- `assets/gbu-logo-pixel.png`: pixel-style university logo beside the homepage profile.
+- `assets/gbu-logo.png`: original university logo beside the homepage profile, with outer transparent margins trimmed.
 - `files/`: existing photographs and paper downloads.
 - `legacy/jemdoc/`: archived sources and styles from the previous site; these are not part of the current build.
 
