@@ -55,7 +55,7 @@ strong { font-weight: 700; }
 @supports (-webkit-background-clip: text) {
   .wordmark a { background: linear-gradient(#fff 8%, #e5edff 35%, #7a91be 49%, #f3f7ff 52%, #a9bce3 87%, #fff 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 }
-.orbit-art { position: absolute; z-index: 0; width: 300px; height: 210px; right: 22px; top: 0; }
+.mobius-art { position: absolute; z-index: 0; width: 300px; height: auto; right: 22px; top: 0; }
 .welcome-strip { display: flex; align-items: center; gap: 12px; padding: 8px 16px; background: #fff5bd; border-block: 1px solid; border-color: #fffce8 #bdac68 #bdac68; font: 11px/1.6 var(--mono); }
 .welcome-strip strong { padding: 1px 5px; background: #233e80; color: #fff6ba; font-size: 10px; letter-spacing: .08em; white-space: nowrap; }
 .welcome-strip a { color: #273a6c; }
@@ -185,7 +185,7 @@ strong { font-weight: 700; }
   .profile-grid { grid-template-columns: 135px minmax(0, 1fr); gap: 18px; padding: 20px; }
   .hero-identity h1 { font-size: 27px; }
   .hero-name-cn { display: block; margin: 6px 0 0; font-size: 15px; }
-  .orbit-art { width: 260px; right: 0; }
+  .mobius-art { width: 260px; right: 0; }
   .wordmark { font-size: 65px; }
   .masthead-copy { padding-left: 25px; }
 }
@@ -195,7 +195,7 @@ strong { font-weight: 700; }
   .masthead { min-height: 180px; }
   .masthead-copy { padding: 24px; }
   .wordmark { font-size: 53px; }
-  .orbit-art { width: 195px; right: -17px; top: -17px; opacity: .65; }
+  .mobius-art { width: 195px; right: 0; top: 0; opacity: .65; }
   .welcome-label { font-size: 9px; }
   .workspace { grid-template-columns: minmax(0, 1fr); }
   .sidebar { display: contents; }
@@ -230,7 +230,7 @@ strong { font-weight: 700; }
   .masthead-copy { padding: 22px 15px; }
   .welcome-label { max-width: 200px; font-size: 8px; letter-spacing: .13em; }
   .wordmark { margin-top: 9px; font-size: clamp(35px, 9.6vw, 50px); }
-  .orbit-art { width: 130px; height: 130px; right: -28px; top: -25px; opacity: .65; }
+  .mobius-art { width: 130px; right: 0; top: 0; opacity: .65; }
   .welcome-strip { align-items: flex-start; padding: 8px; gap: 7px; font-size: 10px; }
   .workspace { gap: 13px; padding: 10px 7px 12px; }
   .site-nav ul { gap: 3px; }
