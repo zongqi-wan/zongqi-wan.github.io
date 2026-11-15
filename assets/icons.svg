@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="home" viewBox="0 0 16 16">
+    <g shape-rendering="crispEdges"><path fill="#172c69" d="M7 1h2v2h2v2h2v2h2v2h-2v6H3V9H1V7h2V5h2V3h2z"/><path fill="#a9d9ff" d="M4 8h8v6H4z"/><path fill="#fff49b" d="M5 8h2v3H5zm4 1h2v5H9z"/><path fill="#6493de" d="M7 3h2v2h2v2H5V5h2z"/></g>
+  </symbol>
+  <symbol id="folder" viewBox="0 0 16 16">
+    <g shape-rendering="crispEdges"><path fill="#5f4a19" d="M1 3h6v2h8v9H1z"/><path fill="#ffe382" d="M2 4h4v2h8v7H2z"/><path fill="#fff5bd" d="M2 7h12v1H2z"/><path fill="#e9aa34" d="M2 12h12v1H2z"/></g>
+  </symbol>
+  <symbol id="book" viewBox="0 0 16 16">
+    <g shape-rendering="crispEdges"><path fill="#172c69" d="M2 1h11v14H2z"/><path fill="#7395e8" d="M3 2h9v10H3z"/><path fill="#fff" d="M4 13h8v1H4zM5 4h5v1H5zm0 2h4v1H5z"/><path fill="#b9d8ff" d="M3 2h1v10H3z"/></g>
+  </symbol>
+  <symbol id="people" viewBox="0 0 16 16">
+    <g shape-rendering="crispEdges"><path fill="#172c69" d="M5 1h5v1h1v5h-1v1h2v1h1v1h1v5H2v-5h1V9h1V8h2V7H5z"/><path fill="#ffdeb2" d="M6 3h4v4H6z"/><path fill="#9ed7e9" d="M5 9h5v1h2v4H4v-4h1z"/><path fill="#f5f6ff" d="M7 9h2v4H7z"/></g>
+  </symbol>
+  <symbol id="link" viewBox="0 0 16 16">
+    <g fill="none" stroke="#24549a" stroke-width="2"><path d="m6 10-2 2a2 2 0 0 1-3-3l3-3a2 2 0 0 1 3 0m3 0 2-2a2 2 0 0 1 3 3l-3 3a2 2 0 0 1-3 0M5 11l6-6"/></g>
+  </symbol>
+  <symbol id="mail" viewBox="0 0 16 16">
+    <g shape-rendering="crispEdges"><path fill="#172c69" d="M0 3h16v11H0z"/><path fill="#fff7c2" d="M1 4h14v9H1z"/><path fill="#b79d56" d="M2 5h2v1H2zm2 1h2v1H4zm2 1h4v1H6zm4-1h2v1h-2zm2-1h2v1h-2zM2 11h2v1H2zm2-1h2v1H4zm6 0h2v1h-2zm2 1h2v1h-2z"/></g>
+  </symbol>
+  <symbol id="globe" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="7" fill="#9bd3f4" stroke="#172c69"/><g fill="none" stroke="#24549a"><ellipse cx="8" cy="8" rx="3" ry="7"/><path d="M1 8h14M3 4h10M3 12h10"/></g>
+  </symbol>
+  <symbol id="file" viewBox="0 0 16 16">
+    <g shape-rendering="crispEdges"><path fill="#172c69" d="M3 1h7l3 3v11H3z"/><path fill="#fff" d="M4 2h5v3h3v9H4z"/><path fill="#799bd0" d="M5 7h6v1H5zm0 2h6v1H5zm0 2h4v1H5z"/></g>
+  </symbol>
+</svg>
