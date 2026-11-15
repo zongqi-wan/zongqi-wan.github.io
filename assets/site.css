@@ -109,6 +109,7 @@ strong { font-weight: 700; }
 .profile-intro p { font-size: 13px; line-height: 1.75; }
 .profile-intro .education { margin-bottom: 0; color: #566177; font-size: 12px; }
 .hero-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.profile-email { flex-basis: 100%; margin: 4px 0 0; color: #536079; font: 12px/1.7 var(--mono); overflow-wrap: anywhere; }
 .retro-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 34px; padding: 5px 11px; border: 1px solid; border-color: white #79879f #79879f white; outline: 1px solid #9da9bb; background: #e5e9f2; color: #203f80; text-decoration: none; font-size: 11px; }
 .retro-button:hover { color: #13285a; background: #fff1b5; }
 .retro-button:active { border-color: #79879f white white #79879f; }
