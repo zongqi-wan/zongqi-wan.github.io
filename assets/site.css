@@ -180,6 +180,17 @@ strong { font-weight: 700; }
 .blog-date { display: inline-block; margin-top: 5px; color: var(--muted); font: 12px/1.6 var(--mono); }
 .blog-back { margin-bottom: 8px; font: 12px/1.6 var(--mono); }
 .blog-prose { font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.blog-prose:lang(zh) > p { text-indent: 2em; }
+.blog-prose math[display="block"] { text-indent: 0; }
+.blog-paper-link {
+  margin-bottom: 1.4em;
+  padding: .7em .9em;
+  border: 1px solid #a9b8d2;
+  border-inline-start: 3px solid #38518b;
+  background: #f0f4fc;
+}
+.blog-paper-link p { margin: 0; }
+.blog-paper-link strong { color: var(--navy); }
 .blog-prose :is(h2, h3, h4) { margin: 1.5em 0 .5em; color: var(--navy); font-family: var(--serif); }
 .blog-prose :is(pre, p:has(> math[display="block"])) { overflow-x: auto; }
 .blog-prose p:has(> math[display="block"]) { padding-block: .5em; }
