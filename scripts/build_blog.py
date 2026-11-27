@@ -86,7 +86,8 @@ def render_post(post, template):
     return template.substitute(
         root='../', page=f'blog/{post.slug}.html', kind='article',
         title=title, description=escape(post.summary or post.title),
-        language=escape(post.language), header=header, content=content,
+        language=escape(post.language), workspace='workspace blog-post-workspace',
+        header=header, content=content,
     )
 
 
@@ -104,7 +105,8 @@ def main():
     pages = {
         ROOT / 'blog.html': template.substitute(
             root='', page='blog.html', kind='website', title='Blog', description='Blog by Zongqi Wan.',
-            language='en', header='          <h1>Blog</h1>', content=render_index(posts),
+            language='en', workspace='workspace',
+            header='          <h1>Blog</h1>', content=render_index(posts),
         ),
     }
     for post in posts:
