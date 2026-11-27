@@ -179,16 +179,7 @@ strong { font-weight: 700; }
 .blog-list p { margin: 6px 0 0; color: var(--muted); }
 .blog-date { display: inline-block; margin-top: 5px; color: var(--muted); font: 12px/1.6 var(--mono); }
 .blog-back { margin-bottom: 8px; font: 12px/1.6 var(--mono); }
-.workspace.blog-post-workspace { grid-template-columns: minmax(0, 46rem); justify-content: center; }
-.blog-post-workspace > .sidebar { display: block; }
-.blog-post-workspace :is(.side-interests, .side-extras) { display: none; }
-.blog-post-workspace .directory-panel { margin: 0; }
-.blog-post-workspace .site-nav ul { display: flex; flex-wrap: wrap; gap: 4px; }
-.blog-post-workspace .site-nav li { flex: 1 1 90px; margin: 0; }
-.blog-post-workspace .site-nav a { justify-content: center; }
-.blog-post-workspace .site-nav a[aria-current="page"]::after { display: none; }
-.blog-post-workspace .blog-heading { text-align: center; }
-.blog-prose { max-width: 72ch; margin-inline: auto; font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.blog-prose { max-width: 72ch; font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
 .blog-prose :is(h2, h3, h4) { margin: 1.5em 0 .5em; color: var(--navy); font-family: var(--serif); }
 .blog-prose :is(pre, p:has(> math[display="block"])) { overflow-x: auto; }
 .blog-prose p:has(> math[display="block"]) { padding-block: .5em; }
