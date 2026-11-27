@@ -186,6 +186,10 @@ strong { font-weight: 700; }
 .blog-prose pre { padding: 12px; border: 1px solid var(--line); background: #f0f4fc; }
 .blog-prose code { font: .93em var(--mono); }
 .blog-prose blockquote { margin-inline: 0; padding-inline-start: 16px; border-inline-start: 3px solid var(--line); }
+.blog-prose figure { margin: 1.6em 0; overflow-x: auto; }
+.blog-prose figure img { display: block; margin-inline: auto; }
+.blog-prose img.blog-diagram { min-width: 420px; }
+.blog-prose figcaption { margin-top: .65em; color: var(--muted); font-size: 13px; }
 .site-footer { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 18px; background: #d6dde9; border-top: 1px solid #99a8c0; font: 11px/1.6 var(--mono); }
 .footer-name { margin: 0; color: #3e5277; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
