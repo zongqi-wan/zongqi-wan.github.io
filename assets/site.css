@@ -170,9 +170,22 @@ strong { font-weight: 700; }
 .collaborator { padding: 18px 0; border-bottom: 1px dotted #b4bfd2; }
 .collaborator h2 { color: #293f70; font: 700 19px/1.4 var(--serif); }
 .collaborator p { margin: 5px 0 0; color: #59677f; font-size: 12px; }
-.resource { padding-block: 22px; border-bottom: 1px dotted #b4bfd2; }
-.resource h2 { font: 700 21px/1.4 var(--serif); }
-.resource p { margin: 5px 0 0; color: #59677f; font: 11px/1.6 var(--mono); }
+.blog-heading h1, .blog-list h2 { overflow-wrap: anywhere; }
+.blog-empty { margin: 0; color: var(--muted); }
+.blog-list { margin: 0; padding: 0; list-style: none; }
+.blog-list li { padding-block: 16px; }
+.blog-list li + li { border-top: 1px dotted var(--line); }
+.blog-list h2 { color: var(--navy); font: 700 21px/1.4 var(--serif); }
+.blog-list p { margin: 6px 0 0; color: var(--muted); }
+.blog-date { display: inline-block; margin-top: 5px; color: var(--muted); font: 12px/1.6 var(--mono); }
+.blog-back { margin-bottom: 8px; font: 12px/1.6 var(--mono); }
+.blog-prose { max-width: 72ch; font-size: 15px; line-height: 1.75; overflow-wrap: anywhere; }
+.blog-prose :is(h2, h3, h4) { margin: 1.5em 0 .5em; color: var(--navy); font-family: var(--serif); }
+.blog-prose :is(pre, p:has(> math[display="block"])) { overflow-x: auto; }
+.blog-prose p:has(> math[display="block"]) { padding-block: .5em; }
+.blog-prose pre { padding: 12px; border: 1px solid var(--line); background: #f0f4fc; }
+.blog-prose code { font: .93em var(--mono); }
+.blog-prose blockquote { margin-inline: 0; padding-inline-start: 16px; border-inline-start: 3px solid var(--line); }
 .site-footer { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 18px; background: #d6dde9; border-top: 1px solid #99a8c0; font: 11px/1.6 var(--mono); }
 .footer-name { margin: 0; color: #3e5277; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
@@ -298,7 +311,6 @@ strong { font-weight: 700; }
   .course p { font-size: 13px; }
   .collaborator h2 { font-size: 20px; }
   .collaborator p { font-size: 13px; }
-  .resource h2 { font-size: 21px; }
   .site-footer { gap: 4px; padding: 12px; }
   .footer-links { gap: 4px 20px; }
   .footer-links a { min-height: 40px; font-size: 11px; }

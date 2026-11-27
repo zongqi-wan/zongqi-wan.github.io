@@ -5,12 +5,16 @@
   // Keep the document (and its Audio instance) alive while swapping the site shell.
   // Each HTML file still works independently, including when JavaScript is disabled.
   const base = new URL('../', document.currentScript.src);
-  const pages = new Set(['', 'index.html', 'research.html', 'teaching.html', 'collaborators.html', 'links.html']
+  const pages = new Set(['', 'index.html', 'research.html', 'teaching.html', 'collaborators.html', 'blog.html']
     .map(path => new URL(path, base).pathname));
+  const postDirectory = new URL('blog/', base).pathname;
   const metadata = 'meta[name="description"], meta[property^="og:"], link[rel="canonical"], script[type="application/ld+json"]';
   const stateKey = 'homepageNavigation';
   const pageKey = url => `${url.pathname === base.pathname ? `${base.pathname}index.html` : url.pathname}${url.search}`;
-  const isSitePage = url => url.origin === location.origin && pages.has(url.pathname);
+  const isSitePage = url => url.origin === location.origin && (
+    pages.has(url.pathname) ||
+    (url.pathname.startsWith(postDirectory) && /^[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(url.pathname.slice(postDirectory.length)))
+  );
   let displayedURL = new URL(location.href);
   let pending;
   let scrollFrame;

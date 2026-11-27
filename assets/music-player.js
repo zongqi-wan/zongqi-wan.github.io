@@ -72,7 +72,7 @@
   const status = $('.music-status');
   const audio = new Audio();
   audio.preload = 'metadata';
-  const musicBase = new URL('assets/music/', document.baseURI);
+  const musicBase = new URL('music/', document.currentScript.src);
   let tracks = [];
   let trackIndex = -1;
   let playlistSignature = '';
